@@ -1,0 +1,148 @@
+
+
+body{
+    background-color: #317899;
+    font-family: 'Rubik';
+}
+.incapere{
+    background-color: #a6d2ec;
+   /* margin-left: 10%;
+    margin-right: 10%;*/
+    margin-top:3em;
+    border-radius: 15px;
+    
+    border-width: 5px;
+    transition-duration: 1s;
+    
+}
+
+.baner{
+       
+        padding-top:15em;
+        width: 100%;
+        
+        
+        position:absolute;
+        border-radius: 0px;
+        transition-duration: 1s;
+        transition-delay: 0.5s;
+
+        display:block;
+        opacity:100%
+        
+        z-index: 1;
+    }
+/*.baner{
+    display:block;
+   margin-top:20em;
+    width: 100%;
+    
+    
+    position:absolute;
+    border-radius: 0px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    z-index: 1;
+   
+    
+    
+
+}*/
+.titlu{
+    padding-top:1em;
+    font-weight:bold;
+    
+    font-size:50px;
+    padding-left:25%;
+
+
+}
+.descriere{
+
+    font-size:30px;
+    /*padding-left: 0%;*/
+    text-align: center;
+    
+
+}
+.spatiu-liber{
+
+    height: 40em;
+
+}
+hr{
+    background-color: #1f1e3f;
+    border: 0 none;
+    border-radius: 15px;
+    height: 2px;
+    opacity:5%
+}
+
+@media oonly screen and (max-width:500px){ /* PENTRU TELEFOANE*/
+
+    .baner{
+        
+        padding-top:46em;
+        width: 100%;
+        
+       
+        position:absolute;
+       
+       
+    
+        
+    
+        z-index: 1;
+    
+    }
+
+}
+
+@media only screen and (max-width:780px){
+
+    .baner{
+       
+        
+        width: 100%;
+        
+      
+        position:absolute;
+       
+        transition-duration: 1s;
+    
+        z-index: 1;
+    }
+
+
+}
+
+
+@media only screen and (max-width:991px){
+
+    .baner{
+       
+        padding-top:22em;
+        width: 100%;
+        
+        
+        
+        position:absolute;
+        border-radius: 0px;
+        transition-duration: 1s;
+    
+        z-index: 1;
+        
+    }
+    .titlu{
+        text-align: left;
+        padding-left:0px;
+        padding-right: 30%;
+    }
+    .descriere{
+        text-align:left;
+        padding-right:40%;
+    }
+
+
+}
+
