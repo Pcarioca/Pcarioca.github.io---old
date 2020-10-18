@@ -16,8 +16,8 @@
 body {
   background-image: url("back3.jpg");
   font-family: "Rubik";
-  background-repeat: no-repeat;
-  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  background-size: 100%;
   transition-duration: 1s;
   /*background-size:cover;*/
 }
