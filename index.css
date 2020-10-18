@@ -303,7 +303,7 @@ hr {
     }*/
     .knowledge {
       font-size: 1.8em;
-      padding-left: 8%%;
+      padding-left: 8%;
     }
     #lat:hover #web-designer {
       padding-top: 0.1em;
@@ -321,6 +321,16 @@ hr {
   #liber {
     height: 8em;
     margin-top: 1em;
+  }
+  .knowledge {
+    font-size: 1.4em;
+    padding-left: 8%;
+    margin-bottom: 1em;
+  }
+  #lat:hover #web-designer {
+    padding-top: 0.1em;
+    font-size: 2em;
+    margin-top:1.3em;
   }
   
   
@@ -349,6 +359,17 @@ hr {
   #lat:hover #web-designer {
     padding-bottom: 0.1em;
   }
+  .knowledge {
+    font-size: 1.4em;
+    padding-left: 8%;
+    margin-bottom: 1em;
+  }
+  #lat:hover #web-designer {
+    padding-top: 0.1em;
+    font-size: 2em;
+    margin-top:1.3em;
+    padding-left: 4em;
+  }
 }
 @media only screen and (max-width: 750px) {
   .spatiu-liber {
@@ -356,6 +377,17 @@ hr {
   }
   #poza {
     display: none;
+  }
+  .knowledge {
+    font-size: 1.4em;
+    padding-left: 8%;
+    margin-bottom: 1em;
+  }
+  #lat:hover #web-designer {
+    padding-top: 0.1em;
+    font-size: 2em;
+    margin-top:1.3em;
+    padding-left: 4em;
   }
 }
 
@@ -385,6 +417,17 @@ hr {
   }
   #liber{
     padding-top: 0em;
+  }
+  .knowledge {
+    font-size: 1.4em;
+    padding-left: 8%;
+    margin-bottom: 1em;
+  }
+  #lat:hover #web-designer {
+    padding-top: 0.1em;
+    font-size: 2em;
+    margin-top:1.3em;
+    padding-left: 1em;
   }
 }
 @media only screen and (max-width: 301px) {
