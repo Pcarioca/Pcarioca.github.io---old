@@ -45,7 +45,7 @@ body {
 }
 
 .knowledge {
-  font-size: 2.5em;
+  font-size: 2em;
   padding-left: 10%;
 }
 
@@ -260,6 +260,14 @@ hr {
   .spatiu-liber {
     height: 7em;
   }
+  .knowledge {
+    font-size: 2em;
+    padding-left: 10%;
+  }
+  #lat:hover #web-designer {
+    padding-top: 0.4em;
+    font-size: 2.4em;
+  }
 }
 
 @media only screen and (max-width: 1130px) {
@@ -293,6 +301,14 @@ hr {
         z-index: 1;
     
     }*/
+    .knowledge {
+      font-size: 1.8em;
+      padding-left: 8%%;
+    }
+    #lat:hover #web-designer {
+      padding-top: 0.1em;
+      font-size: 2em;
+    }
 }
 @media only screen and (max-width: 991px) {
   .spatiu-liber {

@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"-->
@@ -21,122 +22,7 @@
 
     <meta charset="UTF-8">
 
-    <style>
-         #progress {
-                background: #333;
-                border-radius: 13px;
-                height: 20px;
-                width: 300px;
-                padding: 3px;
-            }
-            
-            #progress:after {
-                content: '';
-                display: block;
-                background: orange;
-                width: 50%;
-                height: 100%;
-                border-radius: 9px;
-            }
-            html, body { overflow: hidden; }
-        ::selection {
-            background-color: rgb(108, 177, 117);
-            border-radius: 50%;
-        }
-
-        ::-moz-selection {
-            background-color: rgb(108, 177, 117);
-            border-radius: 50%;
-        }
-
-        .vl {
-            border-left: 4px solid rgb(169, 194, 207);
-            height: 21em;
-            display: inline-flex;
-
-        }
-
-        .chestii {
-            display: flex;
-        }
-
-        .info {
-            line-height: 3em;
-            padding-left: 1em;
-        }
-
-        .bout {
-            text-align: center;
-            padding-left: 5em;
-            padding-top: 10em;
-            padding-bottom: 3em;
-        }
-
-        [alt="Badge"] {
-            height: 16em;
-            /*margin-top: 8em;*/
-            
-            float: left;
-            margin-right:3em;
-        }
-        
-        #MTA{
-            font-weight: 700;
-            font-size: 2em;
-            line-height: 1.25;
-            
-            text-align: center;
-            
-        }
-        .cert{
-            font-size:200%;
-            
-        }
-        .p{
-            display:flex;
-            align-items:center;
-        }
-        a, a:hover{
-            color:green;
-            text-decoration: none;
-        }
-        a:visited{
-            color:rgb(0, 128, 96);
-        }
-        .info{
-            text-align: center;
-        }
-        .info2{
-            border-left:40%;
-            display:inline;
-        }
-        .p2{
-            display:block;
-           
-        }
-        #spatiu{
-            height:100px;
-        }
-        #MTA{
-            font-weight: 700;
-            font-size: 2em;
-            line-height: 1.25;
-            
-            text-align: center;
-            
-        } 
-        #MTA2{
-            font-weight: 700;
-            font-size: 2em;
-            line-height: 1.25;
-            
-            text-align: center;
-            
-        }
-        #CSS{
-            float:right;
-        }
-    </style>
+    
 </head>
 
 <body style="background-color:rgb(240, 255, 255); font-family: 'Rubik','Serif';">
@@ -155,25 +41,29 @@
                     <h5 class="bout">
                         — More about my skills —
                     </h5>
-                    <p id="p"><a target="_blank" href="https://docs.microsoft.com/en-us/learn/certifications/mta-introduction-to-programming-using-html-and-css"> <img src="certificare.png" alt="Badge"></a>
-                        <span id="MTA"><br>MTA: Introduction to Programming Using HTML and CSS - Certified 2020</span><br>
+                    <p id="p"><a target="_blank" href="https://docs.microsoft.com/en-us/learn/certifications/mta-introduction-to-programming-using-html-and-css"> <img id="pic" src="certificare.png" alt="Badge"></a>
+                        <span class="MTA"><br>MTA: Introduction to Programming Using HTML and CSS - Certified 2020</span><br>
                         <span class="cert"> Check my diploma <a target="_blank" href="https://portal.certiport.com/Portal/Pages/CredentialVerification.aspx">here</a> using the code <span id="codee">oFQc-uSH5</span>
                         or <a target="_blank" href="https://portal.certiport.com/Portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=397&cvid=oeEaa6xxoYlTMMqYKNVh/Q==">here</a>
                     </span>
-                    </p><br> <br> <br> <br><br> <br> <br>
+                    </p><!-- <br> <br> <br> <br><br> <br> <br> -->
+                    <div class="spatiu"></div>
                     <br> <div id="spatiuu"></div>
                     <p id="p2"> <img id="CSS" src="CSS.png" alt="Badge">
-                        <span id="MTA2"><br>A complete HTML-CSS knowledge.</span><br>
+                        <span class="MTA2"><br>A complete HTML-CSS knowledge.</span><br>
                         <span class="cert"> I know lots about HTML and CSS. Give me a challenge. I won't use StackOverflow. I promise 🤞</span>
-                    </p><br> <br> <br> <br><br> <br><br>
+                    </p><!--br> <br> <br> <br><br> <br><br-->
+                    <div class="spatiu"></div>
                     <p id="p2"> <img src="JS.png" alt="Badge">
-                        <span id="MTA2"><br>The power of raw JavaScript.</span><br>
+                        <span class="MTA2"><br>The power of raw JavaScript.</span><br>
                         <span class="cert"> That's right. I'll append your business a shiny new interactie website. &lt;/CodingJoke&gt;  </span>
-                    </p><br> <br> <br> <br><br> <br><br>
+                    </p><!--br> <br> <br> <br><br> <br><br-->
+                    <div class="spatiu"></div>
                     <p id="p2"> <img id="CSS" src="Bootstrap.png" alt="Badge">
-                        <span id="MTA2"><br>Bootstrap classes are the best.</span><br>
+                        <span class="MTA2"><br>Bootstrap classes are the best.</span><br>
                         <span class="cert"> And I'm surely talking about HTML classes. I've learned it all by myself, in my perfect websites making chamber. (which is my home. That's where I'm gonna transform coffee into code.) </span>
-                    </p><br> <br> <br> <br> <br> <br>
+                    </p><!--br> <br> <br> <br> <br> <br-->
+                    <div class="spatiu"></div>
                     
                         
                 </div>

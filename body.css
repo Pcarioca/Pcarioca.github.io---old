@@ -1,0 +1,238 @@
+#progress {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+/*html, body { overflow: hidden; }*/
+
+/*
+style="background-color:rgb(240, 255, 255); font-family: 'Rubik','Serif';"*/
+
+html, body{
+    background-color:rgb(240, 255, 255); 
+    font-family: 'Rubik','Serif';
+}
+::selection {
+background-color: rgb(108, 177, 117);
+border-radius: 50%;
+}
+
+::-moz-selection {
+background-color: rgb(108, 177, 117);
+border-radius: 50%;
+}
+
+.vl {
+border-left: 4px solid rgb(169, 194, 207);
+height: 21em;
+display: inline-flex;
+
+}
+
+.chestii {
+display: flex;
+}
+
+
+.bout {
+text-align: center;
+padding-left: 5em;
+padding-top: 6em;
+padding-bottom: 3em;
+}
+
+[alt="Badge"] {
+height: 16em;
+/*margin-top: 8em;*/
+
+float: left;
+margin-right:3em;
+}
+
+#MTA{
+font-weight: 700;
+font-size: 2em;
+line-height: 1.25;
+
+text-align: center;
+
+}
+.cert{
+font-size:200%;
+
+}
+.p{
+display:flex;
+align-items:center;
+}
+a, a:hover{
+color:green;
+text-decoration: none;
+}
+a:visited{
+color:rgb(0, 128, 96);
+}
+.info{
+text-align: center;
+line-height: 3em;
+padding-left: 1em;
+}
+.info2{
+/*border-left:40%;*/
+display:inline;
+}
+.p2{
+display:block;
+
+}
+#spatiu{
+height:100px;
+}
+.MTA{
+font-weight: 700;
+font-size: 2em;
+line-height: 1.25;
+
+text-align: center;
+
+} 
+.MTA2{
+font-weight: 700;
+font-size: 2em;
+line-height: 1.25;
+
+text-align: center;
+
+}
+#CSS{
+float:right;
+}
+.spatiu{
+    height: 10em;
+}
+@media only screen and (max-width:1100px){
+    .cert{
+        font-size: 1.5em;
+    }
+    [alt="Badge"]{
+        height: 10em;
+    }
+    .MTA, .MTA2{
+        font-size: 1.9em;
+    }
+    .spatiu{
+        height: 2em;
+    }
+    .info{
+        text-align: center;
+        line-height: 3em;
+        padding-left: 1em;
+        }
+}
+@media only screen and (max-width:900px){
+    .cert{
+        font-size: 1.2em;
+    }
+    [alt="Badge"]{
+        height: 9em;
+        margin: 2em;
+    }
+    .MTA, .MTA2{
+        font-size: 1.8em;
+    }
+    .spatiu{
+        height: 2em;
+    }
+    .info{
+        text-align: center;
+        line-height: 3em;
+        padding-left: 1em;
+        }
+}
+@media only screen and (max-width:750px){
+    .cert{
+        font-size: 1.2em;
+    }
+    [alt="Badge"]{
+        height: 9em;
+        margin: 1em;
+    }
+    .MTA, .MTA2{
+        font-size: 1.8em;
+    }
+    .spatiu{
+        height: 2em;
+    }
+    p{
+        margin:3rem;
+    }
+    .info{
+        text-align: center;
+        line-height: 2em;
+        padding-left: 4em;
+        padding-right: 5em;
+        }
+}
+@media only screen and (max-width:690px){
+    .cert{
+        font-size: 1.2em;
+    }
+    [alt="Badge"]{
+        height: 6em;
+        margin: 2em;
+        margin-bottom: 5em;
+    }
+    .MTA, .MTA2{
+        font-size: 1.8em;
+    }
+    .spatiu{
+        height: 0em;
+    }
+    p{
+        margin:3rem;
+    }
+    .info{
+        text-align: center;
+        line-height: 2em;
+        padding-left: 0em;
+        padding-right: 1em;
+        }
+}
+@media only screen and (max-width:600px){
+    .cert{
+        font-size: 1.2em;
+    }
+    [alt="Badge"]{
+        display: none;
+        height: 6em;
+        margin: 2em;
+        margin-bottom: 5em;
+    }
+    .MTA, .MTA2{
+        font-size: 2em;
+    }
+    .spatiu{
+        height: 0em;
+    }
+    p{
+        margin:3rem;
+        margin-bottom:0em;
+    }
+    .info{
+        text-align: left;
+        line-height: 2em;
+        padding-left: 0em;
+        padding-right: 1em;
+        }
+}
