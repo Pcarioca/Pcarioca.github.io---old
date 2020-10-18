@@ -107,7 +107,7 @@ body {
   border-radius: 0px;
 
   display: block;
-  opacity: 50%;
+  opacity: 100%;
 
   z-index: 1;
 }
@@ -356,6 +356,7 @@ hr {
     border-radius: 0px;
 
     z-index: 1;
+    
   }
   #poza {
     display: none;
