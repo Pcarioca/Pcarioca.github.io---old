@@ -343,7 +343,7 @@ hr {
     padding-top: 0em;
     margin-top: 0px;
   }
-  
+ 
   #lat 
   #liber {
     height: 8em;
@@ -353,7 +353,7 @@ hr {
     display: none;
   }
   #web-designer {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 3em;
   }
   #lat:hover #web-designer {
