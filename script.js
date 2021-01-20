@@ -9,6 +9,9 @@ $('#scroll').click(function(event) {
 //                                       ---- distance from the top
 });
 
-$('#lat').mouseenter( funtion(){
-    $(this).trigger("hover");
-} );
+$("#lat").one("mouseover", function() {
+    $(this).addClass('permahover');
+  });
+  $(".incapere").one("mouseover", function() {
+    $(this).addClass('permahover2');
+  });
